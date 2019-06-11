@@ -9,18 +9,38 @@
 
 ### To this Class work you will need capture the cookie from Apple Partner (myacinfo-uat). 
 ### This cookie has a duration of 1 year. 
+### You will need allways run getActivateToken() -> getLogin() -> fn you want; I will improve this situation to getlogin()-> fn you want;
  
-```
-    var GSX = require('./index.js');
-    gsx = new GSX(soldTo, shipTo, appleID, certFile, privateKeyWithNoPass, cookieFromApplePartner);
-
-    You will need allways run getActivateToken() -> getLogin() -> fn you want; I will improve this situation to getlogin()-> fn you want;
-```
-
 <p align="center">
   <img width="710" height="110" src="https://user-images.githubusercontent.com/6170734/59277650-7df91f80-8c58-11e9-8874-9938b506a90e.PNG">
 </p>
 
+### To remove passphrase from private key? (Thanks to https://github.com/filipp/gsxlib)
+```
+    $ openssl rsa -in privatekey.pem -out privatekey.nopass.pem
+```
+
+## GSX API REST V1.8.0
+
+## FN Done:
+
+### getActivateToken()
+### login()
+### logout()
+
+### repairSummary()
+### repairDetails()
+### repairAudit()
+### repairProductComponentIssue()
+### repairProductDetails()
+
+### diagnosticSuite()
+### diagnosticInitTest()
+### diagnosticLookup()
+### diagnosticStatus()
+
+### partsSummary()
+### technicianLookup()
 
 ## Example 
 ```
