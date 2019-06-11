@@ -6,9 +6,11 @@
 
 
 ## Configuration
+
+### To this Class work you will need capture the cookie from Apple Partner (myacinfo-uat). 
+### This cookie has a duration of 1 year. 
+ 
 ```
-    To this Class work you will need capture the cookie from Apple Partner (myacinfo-uat). This cookie has a duration of 1 year. 
-   
     var GSX = require('./index.js');
     gsx = new GSX(soldTo, shipTo, appleID, certFile, privateKeyWithNoPass, cookieFromApplePartner);
 
