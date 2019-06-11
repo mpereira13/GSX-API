@@ -12,10 +12,9 @@
 </p>
 
 
-### To this Class work you will need capture the cookie from Apple Partner (myacinfo-uat).
-
-
-### You will need allways run getActivateToken() -> getLogin() -> fn you want; I will improve this situation to getlogin()-> fn you want;
+Class only work if you capture the cookie from Apple Partner (myacinfo-uat).
+<br/>
+You will need allways run getActivateToken() -> getLogin() -> fn you want; I will improve this situation to getlogin()-> fn you want;
 
 
 ### Q: To remove passphrase from private key? (Thanks to https://github.com/filipp/gsxlib)
