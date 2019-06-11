@@ -53,9 +53,11 @@ module.exports = class GSX {
                         _this._options.body.authToken = res.headers['x-apple-auth-token'];
                     }
 
-                    console.log('[Activate Code] statusCode: ', res.statusCode);
-                    console.log('[Activate Code] activaCode: ', _this._activeToken);
-                    resolve();
+                    resolve({
+                        header: res.headers,
+                        statusCode: res.statusCode,
+                        body: body
+                    });
                 }
 
             });
