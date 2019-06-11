@@ -3,18 +3,18 @@
 # GSX-API Rest 
 
 
-# Configuration
+## Configuration
 ```
     To this Class work you will need capture the cookie from Apple Partner (myacinfo-uat);
-    ![Capturar](https://user-images.githubusercontent.com/6170734/59277650-7df91f80-8c58-11e9-8874-9938b506a90e.PNG)
-
+   
     var GSX = require('./index.js');
     gsx = new GSX(soldTo, shipTo, appleID, certFile, privateKeyWithNoPass, cookieFromApplePartner);
 
     You will need allways run getActivateToken() -> getLogin() -> fn you want; I will improve this situation to getlogin()-> fn you want;
 ```
+ ![Capturar](https://user-images.githubusercontent.com/6170734/59277650-7df91f80-8c58-11e9-8874-9938b506a90e.PNG)
 
-#Example 
+## Example 
 ```
     var GSX = require('./index.js');
     gsx = new GSX(soldTo, shipTo, appleID, certFile, privateKeyWithNoPass, cookieFromApplePartner);
