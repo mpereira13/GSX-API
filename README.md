@@ -1,18 +1,24 @@
-![number-13](https://user-images.githubusercontent.com/6170734/59278327-b0574c80-8c59-11e9-935a-3f556cb1571d.png)
+<p align="center">
+  <img width="320" height="318" src="https://user-images.githubusercontent.com/6170734/59278327-b0574c80-8c59-11e9-935a-3f556cb1571d.png">
+</p>
 
 # GSX-API Rest 
 
 
 ## Configuration
 ```
-    To this Class work you will need capture the cookie from Apple Partner (myacinfo-uat);
+    To this Class work you will need capture the cookie from Apple Partner (myacinfo-uat). This cookie has a duration of 1 year. 
    
     var GSX = require('./index.js');
     gsx = new GSX(soldTo, shipTo, appleID, certFile, privateKeyWithNoPass, cookieFromApplePartner);
 
     You will need allways run getActivateToken() -> getLogin() -> fn you want; I will improve this situation to getlogin()-> fn you want;
 ```
- ![Capturar](https://user-images.githubusercontent.com/6170734/59277650-7df91f80-8c58-11e9-8874-9938b506a90e.PNG)
+
+<p align="center">
+  <img width="710" height="110" src="https://user-images.githubusercontent.com/6170734/59277650-7df91f80-8c58-11e9-8874-9938b506a90e.PNG">
+</p>
+
 
 ## Example 
 ```
