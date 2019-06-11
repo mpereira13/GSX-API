@@ -12,19 +12,13 @@
 </p>
 
 
-### To this Class work you will need capture the cookie from Apple Partner (myacinfo-uat). 
-### This cookie has a duration of 1 year. 
-
-
-<p align="center">
-  <img width="710" height="110" src="https://user-images.githubusercontent.com/6170734/59277650-7df91f80-8c58-11e9-8874-9938b506a90e.PNG">
-</p>
+### To this Class work you will need capture the cookie from Apple Partner (myacinfo-uat).
 
 
 ### You will need allways run getActivateToken() -> getLogin() -> fn you want; I will improve this situation to getlogin()-> fn you want;
 
 
-### To remove passphrase from private key? (Thanks to https://github.com/filipp/gsxlib)
+### Q: To remove passphrase from private key? (Thanks to https://github.com/filipp/gsxlib)
 ```
     $ openssl rsa -in privatekey.pem -out privatekey.nopass.pem
 ```
@@ -73,6 +67,9 @@
 
         /* change or init the var repairID */
         return gsx.repairDetails(repairID)
+    })
+    .then(function(data){
+        console.log(data);
     })
     .catch(function(err){
         console.log(err);
