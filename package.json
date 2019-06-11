@@ -1,0 +1,22 @@
+{
+  "name": "gsx-api-rest",
+  "version": "1.0.8",
+  "description": "GSX API Rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpereira13/GSX-API.git"
+  },
+  "author": "13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpereira13/GSX-API/issues"
+  },
+  "homepage": "https://github.com/mpereira13/GSX-API#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
